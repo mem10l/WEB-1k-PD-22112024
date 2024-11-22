@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+  </head>
+  <body>
+    <form id="Calc">
+      <input type="text" id="firstNumber" />
+      <input type="text" id="sard" />
+      <input type="text" id="secondNumber" />
+      <input type="submit" value="Rēķināt" />
+      <br />
+      <p id="output"></p>
+    </form>
+    <script>
+      document
+        .getElementById("Calc")
+        .addEventListener("submit", function (event) {});
+      {
+        event.preventDefault();
+
+        const firstNumber = document.getElementById("firstNumber").value;
+        const secondNumber = document.getElementById("secondNumber").value;
+        const operation = document.getElementById("sard").value;
+      }
+    </script>
+  </body>
+</html>
